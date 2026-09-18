@@ -1,0 +1,26 @@
+{
+  "name": "web3-community-onboarding",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Gasless web3 onboarding starter: Auth.js + browser EOA + Safe + Pimlico (extracted from DeCleanup Network).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "next": ">=14",
+    "next-auth": ">=5",
+    "react": ">=18",
+    "viem": ">=2",
+    "wagmi": ">=2"
+  },
+  "dependencies": {
+    "permissionless": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.2"
+  }
+}

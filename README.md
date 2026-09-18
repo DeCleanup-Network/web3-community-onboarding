@@ -74,3 +74,7 @@ under `lib/client-wallet`, `lib/smart-account`, and `lib/paymaster`.
 ## License
 
 MIT
+
+## Implementation note
+
+Source lives under `src/` with the same `@/` import paths as the DeCleanup Network dApp. See `SOURCE.md`. Copy into a Next.js app (or open this folder as a workspace package) after configuring Auth.js and wagmi providers.
